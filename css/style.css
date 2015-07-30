@@ -1,9 +1,229 @@
 
-.homebanner
+/*skill bar*/
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
 
-.default_color{background-color: #2196F3 !important}
+p{
+  color:#525252;
+  font-size:12px;
+}
+
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:15px;
+  width:100%;
+  background:#eee;
+  height:35px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+  width:110px;
+  font-weight:bold;
+  font-size:13px;
+  color:#ffffff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+  display:block;
+  background:rgba(0, 0, 0, 0.1);
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+  height:35px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:11px;
+  height:35px;
+  line-height:35px;
+  color:#ffffff;
+  color:rgba(0, 0, 0, 0.4);
+}
+/*End Skill Bar*/
+
+.my-story {
+  font-size: 14px;
+}
+
+.homebanner {
+  background: url('../img/wood-mac-1280-2.jpg');
+}
+
+.gold-text {
+  color: #B88D6F;
+}
+
+.henry-name {
+  color: #B88D6F;
+  font-weight: bold;
+}
+
+.role {
+  font-size: 18px;
+}
+
+.profile-pic img {
+  border: 8px solid #fff;
+}
+
+.gray-text {
+  color: #747474;
+}
+
+.contacts{
+  padding: 5px;
+}
+
+.contact {
+  padding: 15px;
+}
+
+#contact {
+  padding-top: 60px;
+}
+
+#about {
+  background: #F7F7F7; 
+}
+
+#portfolio {
+  background: #F7F7F7;
+}
+
+.social-buttons {
+  padding-right: 10px;
+  display: inline-block; 
+}
+
+.fa-bookmark-o {
+  color: #506A9E;
+}
+
+.skill-title {
+  color: #506A9E;
+  font-size: 20px;
+}
+
+.about-body {
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.about-body-paragraph {
+  font-size: 15px;
+}
+
+.footer-contact {
+  color: white;
+}
+
+.footer-icon {
+  color: white;
+}
+
+.footer-finale {
+  font-size: 13px;
+  color: white;
+}
+
+/*Card Button*/
+ 
+.code-card-btn {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #4F69A0;
+  text-align: center;
+  letter-spacing: 0.5px;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  cursor: pointer; }
+  .code-card-btn:hover{
+    background-color: #6586C7; }
+
+    .code-card-btn {
+  display: inline-block;
+  height: 36px;
+  margin-bottom: 5px;
+  padding: 0 2rem;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  line-height: 36px;
+  text-transform: uppercase;
+  border: none;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;}
+
+
+/*End Card Button*/
+
+.default_color_header {
+  color: #506A9E;
+}
+
+.default_color {
+    background-color: #253149 !important
+}
 
 .default_color_text{color: #2196F3 !important}
+
+.contact-button {
+  text-align: center;
+}
+
+.about-button {
+  position: absolute;
+  bottom: -85px;
+  left: 50%;
+  margin-left: -47px;
+}
 
 .icon-block {
     padding: 0 15px;
@@ -20,8 +240,8 @@
 }
 
 #nav_f{
-    box-shadow: none !important; 
-    -webkit-box-shadow:none !important;
+    box-shadow: 0 1px 6px rgba(0,0,0,.35) !important; 
+    -webkit-box-shadow:0 1px 6px rgba(0,0,0,.35) !important;
 }
 
 .text_h {
@@ -108,7 +328,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #2196F3;
+    color: black;
 }
 
 .cd-headline.type b {

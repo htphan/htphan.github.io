@@ -1,384 +1,510 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>Material UI One Page Theme</title>
 
-    <!-- CSS  -->
-    <link href="css/materialize.css" type="text/css" rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet" >
-    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" >
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#2196F3">
+  <title>Henry T. Phan</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <script src="js/modernizr.js"></script>
+  <!-- Modernizr -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </head>
+
 <body id="top" class="scrollspy">
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
+  <!-- Pre Loader -->
+  <div id="loader-wrapper">
     <div id="loader"></div>
- 
+
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
- 
-</div>
 
-<!--Navigation-->
- <div class="navbar-fixed">
+  </div>
+
+  <!--Navigation-->
+  <div class="navbar-fixed">
     <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">MD Template</a>
-            <ul id="nav-mobile" class="right side-nav">
-                <li><a href="#intro">Service</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="" target="_blank">Download</a></li>
-            </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
+      <div class="container">
+        <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">HTP</a>
+          <ul id="nav-mobile" class="right side-nav">
+            <li><a href="#contact" class="gold-text">Contact</a></li>
+            <li><a href="#about" class="gold-text">About</a></li>
+            <li><a href="#skills" class="gold-text">Skills</a></li>
+            <li><a href="#portfolio" class="gold-text">Portfolio</a></li>
+          </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         </div>
+      </div>
     </nav>
-</div>
+  </div>
 
-<!--Hero-->
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container homebanner">
-        <h1 class="text_h center header cd-headline letters type">
-            <p>Hello! I'm Henry Phan</p>
+  <!--Banner-->
+  <div class="homebanner section no-pad-bot z-depth-1" id="index-banner">
+    <div class="container">
+      <h1 class="text_h center header cd-headline letters type">
+            <!-- <p>Hello! <br> I'm Henry Phan</p> -->
+            Hello! 
+            <br>
+            I'm <span class='henry-name'>Henry Phan</span>
+            <br>
+            <span class='role'>SOFTWARE DEVELOPER FROM ATLANTA, GA</span>
+            <br>
             <span>Inspired to</span> 
             <span class="cd-words-wrapper waiting">
-                <b class="is-visible">create</b>
-                <b>design</b>
-                <b>develop</b>
+                <b class="is-visible">create.</b>
+                <b>develop.</b>
+                <b>learn.</b>
             </span>
+            <br>    
         </h1>
+      <div class='contact-button'>
+        <a class="waves-effect waves-light btn" href="#contact"><i class='material-icons left'>question_answer</i>Contact Me</a>
+      </div>
     </div>
-</div>
+  </div>
 
-<!--Intro and service-->
-<div id="intro" class="section scrollspy">
+  <!-- Contact -->
+  <div id='contact' class="section scrollspy">
+    <div class="wow fadeIn">
+      <div class='container'>
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <div class='profile-about'>
+              <h5 class='about-subtitle default_color_header'>MY STORY</h3>
+                <p class='gray-text my-story'>
+                    I am a highly motivated and curious developer who changed careers from the medical field to software development. I believe my prior experiences have strongly influenced my problem solving abilities, while giving me the tools to discover the vast possibilities available in my new field.
+                    <br>
+                </p>
+              </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class='profile-pic'>
+                      <img src="img/profile.png" class='z-depth-1'>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class='row'>
+                      <div class="personal-info">
+                          <h5 class='info-subtitle default_color_header'>CONTACT</h5>
+              <div class='section contacts'>
+                <i class='tiny material-icons'>perm_identity</i><span class='contact gray-text'>Henry Phan</span>
+              </div>
+              <div class='divider'></div>
+              <div class='section contacts'>
+                <i class='tiny material-icons'>stay_current_portrait</i><span class='contact gray-text'>678.568.1287</span>
+              </div>
+              <div class='divider'></div>
+              <div class='section contacts'>
+                <i class='tiny material-icons'>email</i><span class='contact gray-text'>htphan.dev@gmail.com</span>
+              </div>
+              <div class='divider'></div>
+              <div class='section contacts'>
+                <i class='tiny material-icons'>location_on</i><span class='contact gray-text'>Atlanta, GA</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="social-buttons">
+              <a href="http://github.com/htphan" class='btn-floating waves-effect waves-light'>
+                <i class='small fa fa-github'></i>
+              </a>
+            </div>
+            <div class="social-buttons">
+              <a href="https://www.linkedin.com/in/henrytphan" class='btn-floating waves-effect waves-light'>
+                <i class='small fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='social-buttons'>
+              <a href="https://twitter.com/henrytphan" class='btn-floating waves-effect waves-light'>
+                <i class='small fa fa-twitter'></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- About -->
+  <div id='about' class="section scrollspy">
+    <div class='wow fadeIn'>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class='center'>
+              <i class='small fa fa-info-circle'></i>
+            </div>
+            <h4 class="default_color_header center">ABOUT ME</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <div class="about-body z-depth-1">
+              <p class="about-body-paragraph gray-text">
+                I am a software developer coming from the biological and medical sciences field. My past experience in the medical field has given me the opportunity to discover another side of teamwork. It is necessary as a coordinator for a hospital's radiology department and handling other multiple sites, to have the skills to direct and manage multiple locations to serve patient quickly and effectively, especially in emergent situations. This engrained in me the ability to work as a team, while producing results in an timely and efficient manner. These experiences have given me many strengths that have translated to the software development world: attention to detail, steadiness under pressure, organizational, and communication skills.
+              </p>
+              <p class="about-body-paragraph gray-text">
+                I transitioned to software development with the aid of <a href="http://theironyard.com/courses/rails-engineering/">The Iron Yard</a>, a 12-week immersive course in Rails Engineering. Under the guidance of seasoned instructors and staff, I was given not only the skills necessary to be a successful Back-End Engineer, but also the tools to learn. Armed with these new skills, I have immersed myself fully into the software development world and have continued to learn and improve myself not only as a programmer, but also as a student in the neverending journey of programming.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Skills -->
+  <div id='skills' class="section scrollspy">
+    <div class='container'>
+      <div class='row'>
+        <div class="col s12">
+          <div class="skill">
+            <div class="code-icon center">
+              <i class='material-icons small'>assessment</i>
+            </div>
+            <h4 class="center default_color_header">SKILLS</h4>
+          </div>
+          <div class='wow fadeIn'>
+            <div class="skillbar clearfix " data-percent="90%">
+              <div class="skillbar-title" style="background: #B30D00;"><span>Ruby</span></div>
+              <div class="skillbar-bar" style="background: #DB5650;"></div>
+              <div class="skill-bar-percent">90%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="85%">
+              <div class="skillbar-title" style="background: #2980b9;"><span>Rails</span></div>
+              <div class="skillbar-bar" style="background: #3498db;"></div>
+              <div class="skill-bar-percent">85%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="85%">
+              <div class="skillbar-title" style="background: #467173;"><span>SQL</span></div>
+              <div class="skillbar-bar" style="background: #537372;"></div>
+              <div class="skill-bar-percent">85%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="70%">
+              <div class="skillbar-title" style="background: #E74C17;"><span>HTML</span></div>
+              <div class="skillbar-bar" style="background: #E76F41;"></div>
+              <div class="skill-bar-percent">70%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="70%">
+              <div class="skillbar-title" style="background: #1A60B3;"><span>CSS</span></div>
+              <div class="skillbar-bar" style="background: #3A77B3;"></div>
+              <div class="skill-bar-percent">70%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="70%">
+              <div class="skillbar-title" style="background: #FF332A;"><span>Haml</span></div>
+              <div class="skillbar-bar" style="background: #FF554C;"></div>
+              <div class="skill-bar-percent">70%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="50%">
+              <div class="skillbar-title" style="background: #F0DA50;"><span>Javascript</span></div>
+              <div class="skillbar-bar" style="background: #F0E478;"></div>
+              <div class="skill-bar-percent">50%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="50%">
+              <div class="skillbar-title" style="background: #0AA0CD;"><span>jQuery</span></div>
+              <div class="skillbar-bar" style="background: #3DC0CD;"></div>
+              <div class="skill-bar-percent">50%</div>
+            </div>
+            <!-- End Skill Bar -->
+          </div>
+          <div class='col s12'>
+            <div class="wow fadeIn">
+              <div class="otherskills center">
+                <div class="row">
+                  <br>
+                  <i class='small fa fa-bookmark-o' style: 'display: inline-block'></i>
+                  <h5 style="display: inline-block; padding-left: 10px" class="default_color_header">Other Skills</h5>
+                </div>
+                <div class="row">
+                  <div class="col s6 m3 l3">
+                    <p class="skill-title center">
+                      Tech Experience
+                    </p>
+                    <ul class="gray-text">
+                      <li>Object-Oriented Design</li>
+                      <li>Building RESTful APIs</li>
+                      <li>MVC Fundamentals</li>
+                      <li>Webscraping</li>
+                      <li>Markdown</li>
+                      <li>JBuilder</li>
+                      <li>Heroku</li>
+                      <li>Github</li>
+                      <li>JSON</li>
+                      <li>Git</li>
+                    </ul>
+                  </div>
+                  <div class="col s6 m3 l3">
+                    <p class="skill-title center">
+                      Software
+                    </p>
+                    <ul class="gray-text">
+                      <li>Sublime Text</li>
+                      <li>MacDown</li>
+                      <li>Brackets</li>
+                      <li>Postman</li>
+                      <li>ZSH</li>
+                    </ul>
+                  </div>
+                  <div class="col s6 m3 l3">
+                    <p class="skill-title center">
+                      Databases
+                    </p>
+                    <ul class="gray-text">
+                      <li>Relational Databases</li>
+                      <li>PostgreSQL</li>
+                      <li>SQLite3</li>
+                    </ul>
+                  </div>
+                  <div class='col s6 m3 l3'>
+                    <p class="skill-title center">
+                      Frameworks
+                    </p>
+                    <ul class="gray-text">
+                      <li>Bootstrap</li>
+                      <li>Materialize</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Portfolio-->
+  <div class="section scrollspy" id="portfolio">
     <div class="container">
-        <div class="row">
-            <div  class="col s12">
-                <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span </h2>
-            </div>
-
-            <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">User Experience Focused</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                </div>
-            </div>
+      <div class="wow fadeIn">
+        <div class='portfolio-icon center'>
+          <i class='small material-icons'>assignment</i>
         </div>
+        <h4 class="center default_color_header">PORTFOLIO</h2>
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator z-depth-1" src="img/convoy.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Convoy<i class="mdi-navigation-more-vert right"></i></span>
+                <br>
+                <a href="https://github.com/TIY-2015-Final-Project-Carpool-App/Back-End" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Code</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Convoy <i class="mdi-navigation-close right"></i></span>
+                <p>Have you ever had a hard time trying to coordinate picking up your kids? Convoy makes it easier! Convoy is a web and mobile application that assists in the coordination of carpools for all ages. It provides users with the ability to input pertinent information like medical information and emergency contacts. Other features include map display, distance filters, and a social bulletin board for every carpool.</p>
+                <p>The server-side architecture was built with Rails to provide a RESTful API that was consumed by the Front-End and Mobile applications.</p>
+                <p>Tech: Ruby, Rails, PostgreSQL, Mandrill, Redis, Resque, Resque-Scheduler, Mailer, JBuilder, Heroku</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator z-depth-1" src="img/dcryptr.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">DCRYPTr <i class="mdi-navigation-more-vert right"></i></span>
+                <br>
+                <a href="https://github.com/The-Iron-Raptors/Backend" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Code</a>
+                <a href="http://development.dcryptr-tiy.divshot.io/" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Demo</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">DCRYPTr <i class="mdi-navigation-close right"></i></span>
+                <p>DCRYPTr is a guessing game where a user is able to upload some abstract image through their mobile device and upload it to our server with an answer that they equate to the image. A player is then able to use our web platform to access a library of these images and has to guess them correctly. Each progressive incorrect answer nets the player fewer points, but they cannot lose point they have already earned!</p>
+                <p>The server-side architecture was built with Rails to provide a RESTful API that was sonsumed by the Front-End and Mobile applications.</p>
+                <p>Tech: Ruby, Rails, PostgreSQL, Amazon AWS S3, JBuilder, Heroku</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator z-depth-1" src="img/beatdatbudget.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">BeatDatBudget<i class="mdi-navigation-more-vert right"></i></span>
+                <br>
+                <a href="https://github.com/HckthnProjectZero5/Back-End" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Code</a>
+                <a href="http://development.beat-dat-budget-map-editor.divshot.io/" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Demo</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">BeatDatBudget <i class="mdi-navigation-close right"></i></span>
+                <p>
+                  BeatDatBudget is another spin to the classic sadistic game of throwing beings at inanimate objects. Here we have Junior, Mid, and Senior developers at your disposable to complete a 'project' by hurling them at it until you demolish your project... Yay! The fewer developers you use will net you a higher score!
+                </p>
+                <p>The server-side architecture was built with Rails to provide a RESTful API that was sonsumed by the Front-End and Mobile applications.</p>
+                <p>Tech: Ruby, Rails, PostgreSQL, Serializer, Heroku</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator z-depth-1" src="img/Tic-Tac-Toe.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Tic-Tac-Toe<i class="mdi-navigation-more-vert right"></i></span>
+                <br>
+                <a href="https://github.com/htphan/Tic-Tac-Toe" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Code</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Tic-Tac-Toe <i class="mdi-navigation-close right"></i></span>
+                <p>
+                  Tic-Tac-Toe is well... Tic-Tac-Toe! Built on the Ruby language, this game is a simple terminal game that supports single, multi-player, and CPU vs CPU modes. An additional feature of arbitrary board sizes allow the user to designate what ever dimension they desire. Play a 50x50 if you want! Though you may be playing for a very long time... 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator z-depth-1" src="img/JustDoDat.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">JustDoDat <i class="mdi-navigation-more-vert right"></i></span>
+                <br>
+                <a href="https://github.com/htphan/justdodat" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Code</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">JustDoDat <i class="mdi-navigation-close right"></i></span>
+                <p>
+                  JustDoDat is a simple to use to-do list web application that allows users to create multiple lists, and corresponding tasks for each list. Features include easy customization/editing of details and simple completion. That's all you need for a to-do list!
+                </p>
+                <p>Tech: Ruby, Rails, HTML, CSS, Javascript, jQuery, Ajax, Bootstrap, Devise, PostgreSQL.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator z-depth-1" src="img/inspectr.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Inspectr <i class="mdi-navigation-more-vert right"></i></span>
+                <br>
+                <a href="https://github.com/codeforatlanta/inspectr" class='waves-effect waves-light code-card-btn white-text z-depth-1'>Code</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Inspectr <i class="mdi-navigation-close right"></i></span>
+                <p>
+                  Inspectr came to lifethrough a collaborative work during the National Civic Day of Hacking (hackathon). Working with a diverse group consisting of a Project Manager, Data Analyst, and fellow software developers, we developed a webscraper that parsed through the Fulton County health inspection website to collect and present this data to the open source community. 
+                </p>
+                <p>
+                  Tech: Ruby, Sinatra, Nokogiri, Roo
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<!--Work-->
-<div class="section scrollspy" id="work">
+  <!--Parallax-->
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/parallax-woods.jpg"></div>
+  </div>
+
+  <!--Footer-->
+  <footer class="page-footer default_color scrollspy">
     <div class="container">
-        <h2 class="header text_b">Work </h2>
-        <div class="row">
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project1.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project4.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project5.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project6.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class='col m4 l4 s12'>
+          <h5 class='info-subtitle gold-text'>Finale</h5>
+          <p class='footer-finale'>I love to code, develop, and learn. I work mainly with Ruby, Rails, HTML, CSS, and Javascript - but I am always open to broadening my skillset by tackling other languages and frameworks. If you are looking for someone who is adaptable and eager to learn to be a part of your team, please contact me and I would be more than happy to discuss what I can contribute to your team! </p>
         </div>
-    </div>
-</div>
-
-<!--Parallax-->
-<div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.png"></div>
-</div>
-
-<!--Team-->
-<div class="section scrollspy" id="team">
-    <div class="container">
-        <h2 class="header text_b"> Our Team </h2>
-        <div class="row">
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar1.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Flash <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CEO</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
+        <div class="col m4 l4 s12">
+          <form class="col s12">
+            <div class="row">
+              <div class="personal-info">
+                <h5 class='info-subtitle gold-text'>Get In Touch with Me!</h5>
+                <div class='section contacts'>
+                  <i class='tiny material-icons footer-icon'>perm_identity</i><span class='contact white-text'>Henry Phan</span>
                 </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar2.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Cat Woman<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Designer</a></em></small>
-                        </span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
+                <div class='divider'></div>
+                <div class='section contacts'>
+                  <i class='tiny material-icons footer-icon'>stay_current_portrait</i><span class='contact white-text'>678.568.1287</span>
                 </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Capt. America <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CMO</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
+                <div class='divider'></div>
+                <div class='section contacts'>
+                  <i class='tiny material-icons footer-icon'>email</i><span class='contact white-text'>htphan.dev@gmail.com</span>
                 </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar4.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Robin<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Developer</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
+                <div class='divider'></div>
+                <div class='section contacts'>
+                  <i class='tiny material-icons footer-icon'>location_on</i><span class='contact white-text'>Atlanta, GA</span>
                 </div>
+              </div>
             </div>
+          </form>
         </div>
-    </div>
-</div>
-
-<!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">  
-        <div class="row">
-            <div class="col l6 s12">
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <i class="mdi-action-account-circle prefix white-text"></i>
-                            <input id="icon_prefix" type="text" class="validate white-text">
-                            <label for="icon_prefix" class="white-text">First Name</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <i class="mdi-communication-email prefix white-text"></i>
-                            <input id="icon_email" type="email" class="validate white-text">
-                            <label for="icon_email" class="white-text">Email-id</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <i class="mdi-editor-mode-edit prefix white-text"></i>
-                            <textarea id="icon_prefix2" class="materialize-textarea white-text"></textarea>
-                            <label for="icon_prefix2" class="white-text">Message</label>
-                        </div>
-                        <div class="col offset-s7 s5">
-                            <button class="btn waves-effect waves-light red darken-1" type="submit" name="action">Submit
-                                <i class="mdi-content-send right white-text"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">joashpereira.com</h5>
-                <ul>
-                    <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
-                    <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
-                </ul>
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Social</h5>
-                <ul>
-                    <li>
-                        <a class="white-text" href="https://www.behance.net/joashp">
-                            <i class="small fa fa-behance-square white-text"></i> Behance
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://www.facebook.com/joash.c.pereira">
-                            <i class="small fa fa-facebook-square white-text"></i> Facebook
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://github.com/joashp">
-                            <i class="small fa fa-github-square white-text"></i> Github
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://www.linkedin.com/in/joashp">
-                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <div class="col m4 l4 s12 right">
+          <h5 class="gold-text">Social</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="https://github.com/htphan">
+                <i class="small fa fa-github-square white-text"></i> htphan
+              </a>
+            </li>
+            <li>
+              <a class="white-text" href="https://www.linkedin.com/in/henrytphan">
+                <i class="small fa fa-linkedin-square white-text"></i> henrytphan
+              </a>
+            </li>
+            <li>
+              <a class="white-text" href="https://twitter.com/henrytphan">
+                <i class="small fa fa-twitter-square white-text"></i> @henrytphan
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
+
     <div class="footer-copyright default_color">
-        <div class="container">
-            Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
-        </div>
+      <div class="container center gold-text">
+        &copy; 2015 Henry Phan
+      </div>
     </div>
-</footer>
+  </footer>
 
 
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/skill-bar.js"></script>
 
-    </body>
+</body>
+
 </html>

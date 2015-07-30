@@ -5002,7 +5002,7 @@ nav {
       line-height: 56px; }
   nav .brand-logo {
     position: absolute;
-    color: #fff;
+    color: #B88D6F;
     display: inline-block;
     font-size: 2.1rem;
     padding: 0; }
@@ -5116,7 +5116,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {
@@ -5335,7 +5335,7 @@ small {
       cursor: pointer; }
   .card a {
     color: #ffab40;
-    margin-right: 20px;
+    margin-right: 5px;
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
@@ -5591,7 +5591,7 @@ ul.tabs li.tab {
 .btn, .btn-large {
   text-decoration: none;
   color: #FFF;
-  background-color: #26a69a;
+  background-color: #506A9E;
   text-align: center;
   letter-spacing: 0.5px;
   -webkit-transition: 0.2s ease-out;
@@ -5601,7 +5601,7 @@ ul.tabs li.tab {
   transition: 0.2s ease-out;
   cursor: pointer; }
   .btn:hover, .btn-large:hover {
-    background-color: #2bbbad; }
+    background-color: #6586C7; }
 
 .btn-floating {
   display: inline-block;
@@ -5612,7 +5612,7 @@ ul.tabs li.tab {
   height: 37px;
   line-height: 37px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #58595B;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -5627,7 +5627,7 @@ ul.tabs li.tab {
     width: inherit;
     display: inline-block;
     text-align: center;
-    color: #FFF;
+    color: #F7F7F7;
     font-size: 1.6rem;
     line-height: 37px; }
   .btn-floating.btn-large {
