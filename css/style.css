@@ -89,7 +89,7 @@ p{
 
 .homebanner {
   background: url('../img/wood-mac-1280-2.jpg');
-  background-size: 100%;
+  background-size: cover;
 }
 
 .gold-text {
